@@ -1,0 +1,43 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: en-GB
+
+book:
+  title: "Issues in EEG data analysis"
+  subtitle: "EEG cleaning and ICA in MATLAB, EEGLAB"
+  author: "Simon Hanzal"
+  date: "2026-10-01"
+  date-format: "D MMMM YYYY"
+  search: true
+  page-navigation: true
+  # Once the book is on GitHub, uncomment and fill in these two lines to get
+  # "Edit this page" and "Report an issue" links in the sidebar:
+  # repo-url: https://github.com/YOUR-USERNAME/YOUR-REPO
+  # repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - preclass.qmd
+    - cleaning.qmd
+    - analysis.qmd
+  appendices:
+    - troubleshooting.qmd
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-copy: true
+    lightbox: true
+    fig-align: center
+
+# Keeps rendered results of any R code chunks you add later, so publishing
+# does not need to re-run them.
+execute:
+  freeze: auto

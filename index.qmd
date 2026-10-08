@@ -1,0 +1,9 @@
+# Welcome
+
+This book contains the materials for your FIM Lecture 9, a practical lecture on issues in analysing EEG data, using  MATLAB and the EEGLAB package.
+
+- **How to use this book** watch the video on [Moodle](https://moodle.gla.ac.uk/course/view.php?id=55173), which explains how to navigate the different files used for this module. You will need to download the supporting files ahead of the lab.
+
+- **Before class:** *(optional)* work through [Pre-class EEG cleaning](preclass.qmd), which explains how I pre-processed the datasets you will use in the lab.
+- **In class:** [Cleaning the data](cleaning.qmd) is the worksheet for the practical lecture itself.
+- **Post class:** *(optional)* [Analysis and inference](analysis.qmd) is a worksheet you can have a look at after the class if you wish to learn more.

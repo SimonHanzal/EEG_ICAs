@@ -1,0 +1,18 @@
+/* Menu paths in MATLAB / EEGLAB, e.g. [File › Load Existing Dataset]{.menu} */
+.menu {
+  font-family: var(--bs-font-monospace, monospace);
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 0.1em 0.45em;
+  border-radius: 0.3em;
+  background-color: rgba(255, 213, 79, 0.35);
+  border: 1px solid rgba(200, 160, 0, 0.45);
+  white-space: normal;
+}
+
+/* Screenshots: light border so they stand out in dark mode too */
+.quarto-figure img,
+p > img {
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  border-radius: 4px;
+}
