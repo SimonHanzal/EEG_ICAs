@@ -37,7 +37,7 @@ format:
     lightbox: true
     fig-align: center
 
-# Keeps rendered results of any R code chunks you add later, so publishing
+# Keeps rendered results of any R code chunks you add later, so publishing it
 # does not need to re-run them.
 execute:
   freeze: auto
